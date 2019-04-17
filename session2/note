@@ -1,0 +1,19 @@
+
+phím Alt + mũi tên down: đổi dòng
+
+lặp rùa 
+for i in range(3):
+    quay đi các thứ (nhớ tab)
+
+    for i in range (4)
+        hdhdhđ
+
+(lặp trong lặp)
+
+print(*range(x,y,z)) 
+=> start = x
+stop = y
+step = z (có thể âm để dãy đi ngược)
+
+for i in [a,b ,  bbbb]
+i không bắt buộc đi vs range, chỉ cần đi vs 1 tập giá trị
