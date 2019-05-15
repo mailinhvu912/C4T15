@@ -29,3 +29,5 @@ else:
 
 if result1 == 'A' and result2 == correct:
     print('you answered correctly 2/2 = ', 2/2 *100, '%')
+
+# em viet code hoi dai dong nma de nho em quen thi mai ngay em doc lai ah!
