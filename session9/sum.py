@@ -10,7 +10,7 @@ numbers.append(number2)
 numbers.append(number3)
 numbers.append(number4)
 
-print(*numbers, sep="'")
+print(*numbers, sep=" ")
 b = sum(numbers)
 print(b)
 

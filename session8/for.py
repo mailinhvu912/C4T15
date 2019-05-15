@@ -15,5 +15,5 @@ songs.append(new2)
 songs.append(new3)
 
 for i, song in enumerate(songs):
-    print(i, song. upper())
+    print(i, song.upper())
 
