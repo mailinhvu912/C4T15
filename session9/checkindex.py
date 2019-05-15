@@ -13,4 +13,5 @@ if item in so:
     print("Position is", so.index(item))
 else:
     print("not exist")
+    
 # em len tra google nhung van k lam dc cai hien index a :((((
