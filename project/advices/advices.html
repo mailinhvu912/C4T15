@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HNAG</title>
+    <link rel="stylesheet" href="./advices.css">
+</head>
+
+<body>
+    <div class="footer">
+        <button class="góp-ý-button" onclick="openForm()">Góp ý</button>
+    </div>
+
+    <div class="Pop-Up-Góp-Ý" id="myForm">
+        <form>
+            <ul>
+                <li class="font">Tên món: <input type="text" value="" size=50 class="h-50px" /></li>
+                <li class="font">Địa chỉ, khu vực: <input type="text" value="" size=50 class="h-50px" /></li>
+            </ul>
+            <p><input type="submit" value="Gửi" class="submit-button" /></p>
+            <p class="font2">Cảm ơn bạn đã góp ý!</p>
+        </form>
+    </div>
+
+    <script>
+        function openForm() {
+            document.getElementById('myForm').style.display = "block";
+        }
+    </script>
+
+</body>
+
+</html>
